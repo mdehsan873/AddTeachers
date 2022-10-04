@@ -1,0 +1,38 @@
+DRIVERPATH = '/home/ehsan/Documents/webdriver/chromedriver'
+WEBURL = "http://admin-reportify.herokuapp.com"
+USERNAME_XPATH = "/html/body/div/div/div/div/main/div/div/div/form/div[1]/input"
+PASSWORD_XPATH = "/html/body/div/div/div/div/main/div/div/div/form/div[2]/input"
+LOGIN_BUTTON_XPATH = "/html/body/div/div/div/div/main/div/div/div/form/div[3]/button"
+USERNAME = "2730828cbse"
+PASSWORD = "123456789"
+ADD_TEACHER_BUTTON_XPATH = "/html/body/div/div/div/div/main/div/div/div[2]/div[4]/div/div/div[2]/div[2]/div[1]"
+TEACHER_NAME_XPATH = "/html/body/div[3]/div/div/div[2]/form/div/div[2]/div[2]/div/input"
+TEACHER_PHONE_XPATH = "/html/body/div[3]/div/div/div[2]/form/div/div[2]/div[3]/div/input"
+TEACHER_EMAIL_XPATH = "/html/body/div[3]/div/div/div[2]/form/div/div[2]/div[4]/div/input"
+TEACHER_ADDRESS_XPATH = "/html/body/div[3]/div/div/div[2]/form/div/div[2]/div[5]/div/input"
+TEACHER_GENDER_XPATH = "/html/body/div[3]/div/div/div[2]/form/div/div[2]/div[6]/div/select"
+TEACHER_ADHAR_XPATH = "/html/body/div[3]/div/div/div[2]/form/div/div[2]/div[7]/div/input"
+MALE_FEMALE_XPATH = {'m': "/html/body/div[3]/div/div/div[2]/form/div/div[2]/div[6]/div/select/option[2]",
+                     'f': "/html/body/div[3]/div/div/div[2]/form/div/div[2]/div[6]/div/select/option[3]"}
+# SAVE_BUTTON = "/html/body/div[3]/div/div/div[2]/form/div/div[4]/div/button"
+
+ADD_TEACHER_FRAME = "/html/body/div[3]/div/div"
+ADD_SUBJECT_BUTTON = "/html/body/div/div/div/div/main/div/div/div[2]/div[4]/div/div/div[2]/div[2]/div[2]"
+SESSION_SELECT_XPATH = "/html/body/div[3]/div/div/div[2]/form/div/div[1]/div[1]/div/select"
+CLASS_SELECT_XPATH = "/html/body/div[3]/div/div/div[2]/form/div/div[1]/div[2]/div/select"
+SUBJECT_NAME_XPATH = "/html/body/div[3]/div/div/div[2]/form/div/div[3]/div[2]/div/input"
+SUBJECT_TYPE_XPATH = "/html/body/div[3]/div/div/div[2]/form/div/div[3]/div[3]/div/select"
+TEACHER_XPATH = '/html/body/div[3]/div/div/div[2]/form/div/div[3]/div[4]/div/select'
+SAVE_BUTTON = "primary-cta w-100"
+# STUDENT
+ADD_STUDENT_HOME_BUTTON_XPATH = "/html/body/div/div/div/div/main/div/div/div[2]/div[1]/div/div/div[3]/div/div[1]"
+FIRST_NAME_XPATH = "/html/body/div[3]/div/div/div[2]/form/div/div[1]/div[1]/div/input"
+LAST_NAME_XPATH = "/html/body/div[3]/div/div/div[2]/form/div/div[1]/div[2]/div/input"
+GENDER_DROPDOWN_XPATH = "/html/body/div[3]/div/div/div[2]/form/div/div[1]/div[3]/div/select"
+FATHER_NAME_XPATH = "/html/body/div[3]/div/div/div[2]/form/div/div[2]/div[1]/div/input"
+MOTHER_NAME_XPATH = "/html/body/div[3]/div/div/div[2]/form/div/div[2]/div[2]/div/input"
+PHONE_NUMBER_XPATH = "/html/body/div[3]/div/div/div[2]/form/div/div[2]/div[3]/div/input"
+REGISTRATION_XPATH = "/html/body/div[3]/div/div/div[2]/form/div/div[3]/div[1]/div/input"
+ROLL_NO_XPATH = "/html/body/div[3]/div/div/div[2]/form/div/div[3]/div[2]/div/input"
+SESSION_XPATH = "/html/body/div[3]/div/div/div[2]/form/div/div[3]/div[3]/div/select"
+CLASS_XPATH = "/html/body/div[3]/div/div/div[2]/form/div/div[3]/div[4]/div/select"
